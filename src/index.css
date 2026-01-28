@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+body{
+    background-color: black;
+    padding: 50px;
+}
+li{
+    margin-top: 40px;
+    font-size: 20px;
+    color: red;
+}
