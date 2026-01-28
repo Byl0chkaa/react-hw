@@ -1,23 +1,11 @@
 import './App.css'
-
-const coursesTitleArray: string[] = [
-    'JavaScript Complex',
-    'Java Complex',
-    'Python Complex',
-    'QA Complex',
-    'Fullstack',
-    'Frontend'
-];
+import {CoursesComponent} from "./components/courses-component/CoursesComponent.tsx";
 
 function App() {
 
     return (
         <>
-<ul>
-    {
-        coursesTitleArray.map((course, index) => <li key={index}>{course}</li>)
-    }
-</ul>
+            <CoursesComponent/>
         </>
     )
 }
