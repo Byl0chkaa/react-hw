@@ -1,0 +1,9 @@
+body{
+    background: rgba(44, 44, 44, 0.43);
+    font-size: 14px;
+    margin-top: 0;
+}
+.characters{
+    display: flex;
+    gap: 100px;
+}
