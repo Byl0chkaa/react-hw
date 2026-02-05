@@ -1,4 +1,4 @@
-import {coursesAndDurationArray} from "C:/Users/sakal/Desktop/Курси/react/arrays.ts"
+import {coursesAndDurationArray} from "../../models/arrays.ts"
 import type {CourseModel} from "../../models/CourseModel.ts";
 import CourseComponent from "../course-component/CourseComponent.tsx";
 import "./Courses-component.css"
