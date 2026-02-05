@@ -1,5 +1,5 @@
-import type {CourseModel} from "./src/models/CourseModel";
-import type {CharacterModel} from "./src/models/CharacterModel";
+import type {CourseModel} from "./CourseModel.ts";
+import type {CharacterModel} from "./CharacterModel.ts";
 
 //
 // let coursesTitleArray: string[] = [

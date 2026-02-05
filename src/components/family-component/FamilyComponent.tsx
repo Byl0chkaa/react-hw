@@ -1,4 +1,4 @@
-import {simpsons} from "C:/Users/sakal/Desktop/Курси/react/arrays.ts"
+import {simpsons} from "../../models/arrays.ts"
 import type {CharacterModel} from "../../models/CharacterModel.ts";
 import CharacterComponent from "../character-component/CharacterComponent.tsx";
 import "./Family-component.css"
