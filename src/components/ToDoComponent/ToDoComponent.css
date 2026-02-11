@@ -1,0 +1,10 @@
+.todo-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    border: 1px solid black;
+}
