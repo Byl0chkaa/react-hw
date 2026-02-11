@@ -1,8 +1,8 @@
-import { PostModel } from "./PostModel";
+import type {PostModel} from "./PostModel";
 
 export default interface ResponsePostDummyjson {
-   posts?: PostModel[];
-   total?: number;
-   skip?: number;
-   limit?: number;
+   posts: PostModel[];
+   total: number;
+   skip: number;
+   limit: number;
 }
