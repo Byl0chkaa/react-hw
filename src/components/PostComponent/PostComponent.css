@@ -1,0 +1,10 @@
+.post-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
