@@ -1,8 +1,8 @@
-import type postModel from "../model/postModel.ts";
+import type {PostModel} from "../models/PostModel.ts";
 
 const basePosts=import.meta.env.VITE_POSTS_URL + '/posts';
 
-export const postsApi = async (): Promise<postModel[]> => {
+export const loadPosts = async (): Promise<PostModel[]> => {
     return await fetch(basePosts)
-        .then(res => res.json());
+        .then(response => response.json());
 }

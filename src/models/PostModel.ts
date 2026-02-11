@@ -1,4 +1,4 @@
-export default interface postModel {
+export interface PostModel {
    userId: number;
    id: number;
    title: string;
