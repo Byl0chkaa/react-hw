@@ -1,5 +1,5 @@
 import {createBrowserRouter} from "react-router-dom";
-import {MainLayout} from "../Layouts/MainLayout.tsx";
+import {MainLayout} from "../layouts/MainLayout.tsx";
 import {UserPage} from "../Pages/MainUserPage/UserPage.tsx";
 import {JsonUserPage} from "../Pages/UserPages/JsonUserPage.tsx";
 import {DummyUserPage} from "../Pages/UserPages/DummyUserPage.tsx";
@@ -8,6 +8,7 @@ import {JsonPostsPage} from "../Pages/PostPages/JsonPostsPage.tsx";
 import {DummyPostsPage} from "../Pages/PostPages/DummyPostsPage.tsx";
 import {CommentsPage} from "../Pages/MainCommentsPage/CommentsPage.tsx";
 import {JsonCommentsPage} from "../Pages/CommentsPage/JsonCommentsPage.tsx";
+import {DummyCommentsPage} from "../Pages/CommentsPage/DummyCommentsPage.tsx";
 
 export const routes = createBrowserRouter([
     {
@@ -26,7 +27,8 @@ export const routes = createBrowserRouter([
             },
             {
                 path: 'comments', element: <CommentsPage/>, children: [
-                    {path: 'jsonplaceholder', element: <JsonCommentsPage/>}
+                    {path: 'jsonplaceholder', element: <JsonCommentsPage/>},
+                    {path: 'dummyjson', element: <DummyCommentsPage/>}
                 ]
             }
         ]
