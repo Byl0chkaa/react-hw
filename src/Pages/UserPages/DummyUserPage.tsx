@@ -1,7 +1,9 @@
+import {UsersComponent} from "../../components/DummyComponents/UsersComponents/UsersComponent/UsersComponent.tsx";
+
 export const DummyUserPage = () => {
     return (
         <div>
-            Dummy Users Content
+            <UsersComponent/>
         </div>
     );
 };

@@ -1,7 +1,12 @@
+import {UsersComponent} from "../../components/JsonComponents/UsersComponents/UsersComponent/UsersComponent.tsx";
+import {Outlet} from "react-router-dom";
+
 export const JsonUserPage = () => {
     return (
         <div>
-            Json Users Content
+
+            <UsersComponent/>
+            <Outlet/>
         </div>
     );
 };

@@ -5,9 +5,11 @@ interface JsonUserProps {
 user: JsonUsersModel
 }
 
-export const UserComponent: FC<JsonUserProps> = ({}) => {
+export const UserComponent: FC<JsonUserProps> = ({user}) => {
 
     return (
-        <></>
+        <div>
+            {user.username}
+        </div>
     );
 };

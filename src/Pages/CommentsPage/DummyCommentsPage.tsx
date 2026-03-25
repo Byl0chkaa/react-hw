@@ -1,7 +1,13 @@
+import {
+    CommentsComponent
+} from "../../components/DummyComponents/CommentsComponents/CommentsComponent/CommentsComponent.tsx";
+import {Outlet} from "react-router-dom";
+
 export const DummyCommentsPage = () => {
     return (
         <div>
-            Dummy Comments Content
+            <CommentsComponent/>
+            <Outlet/>
         </div>
     );
 };
