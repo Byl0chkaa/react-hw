@@ -7,13 +7,13 @@ export const PaginationComponent = () => {
         <div>
             <button onClick={() =>{
                 if(currentPage > 1) {
-                    setQuery({page: (currentPage--).toString()});
+                    setQuery({page: (--currentPage).toString()});
                 }
             }}>prev</button>
 
 
             <button onClick={() =>{
-                setQuery({page: (currentPage++).toString()});
+                setQuery({page: (++currentPage).toString()});
             }}>next</button>
         </div>
     );
