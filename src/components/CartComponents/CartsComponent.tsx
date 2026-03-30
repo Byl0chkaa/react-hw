@@ -8,7 +8,9 @@ export const CartsComponent = () => {
     const {id} = useParams();
     const [carts, setCarts] = useState<ICart[]>([]);
     useEffect(() => {
-        cartService.getCart().then(res => setCarts(res.carts));
+        if(id){
+            cartService.getCart(id).then(res => setCarts(res.carts));
+        }
     },[id]);
     return (
         <div>

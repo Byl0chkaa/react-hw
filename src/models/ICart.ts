@@ -2,7 +2,7 @@ export default interface ICart {
    id?: number;
    title?: string;
    price?: number;
-   quantity?: number;
+   quantity: number;
    total?: number;
    discountPercentage?: number;
    discountedTotal?: number;

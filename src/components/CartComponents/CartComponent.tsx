@@ -7,10 +7,9 @@ interface CartComponentProps {
 export const CartComponent = ({cart}: CartComponentProps) => {
     return (
         <div>
-            <p>{cart.title}</p>
-            <p>{cart.price}</p>
-            <p>{cart.thumbnail}</p>
-            <p>{cart.total}</p>
+            <p>Total: {cart.total} </p>
+            <p>Discounted Total: {cart.discountedTotal}</p>
+            <hr/>
         </div>
     );
 };

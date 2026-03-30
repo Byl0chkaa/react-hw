@@ -5,6 +5,7 @@ export const UsersPage = () => {
     return (
         <div>
             <UsersComponent/>
+            <hr/>
             <Outlet/>
         </div>
     );

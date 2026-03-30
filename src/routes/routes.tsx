@@ -7,6 +7,7 @@ import {MainLayout} from "../layouts/MainLayout.tsx";
 
 export const routes = createBrowserRouter([{
     path: '/', element: <MainLayout/>, children: [
+        {index: true, element: <UsersPage/> },
         {
             path: 'users', element: <UsersPage/>, children: [
                 {path: ':id/carts', element: <CartsPage/>}
