@@ -1,4 +1,4 @@
-export default interface IUserWithTokens {
+export default interface IUserWithTokens { //model for user with token
    id?: number;
    username?: string;
    email?: string;

@@ -1,4 +1,4 @@
-export default interface IProduct {
+export default interface IProduct { //model for products
    id?: number;
    title?: string;
    description?: string;
